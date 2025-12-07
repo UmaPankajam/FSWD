@@ -75,7 +75,8 @@ Phone: ${form.phone}`;
           display: flex;
           justify-content: center;
           align-items: center;
-          background: #f3f4f6;
+          background: #ae96ebff;
+          margin: 0 auto;
         }
 
         /* form container: semi-opaque over background image */
@@ -87,16 +88,20 @@ Phone: ${form.phone}`;
           justyfy-content:center;
           box-shadow: 0 10px 30px rgba(0,0,0,0.18);
           background-image:
-            linear-gradient(rgba(109, 105, 187, 0.88), rgba(165, 150, 216, 0.88)),
+            
             url('/bg.jpg');
           background-size: cover;
           background-position: center;
           font-family: Arial, Helvetica, sans-serif;
+          margin: 0 auto;
+          
+position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%);
+
         }
 
         .form-container h2 {
           text-align: center;
-          margin: 0 0 12px 0;
+          margin: 0 0 0 0;
           font-size: 20px;
         }
 
