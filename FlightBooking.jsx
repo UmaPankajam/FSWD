@@ -34,3 +34,14 @@ function FlightBooking() {
 }
 
 export default FlightBooking;
+
+//App.jsx
+import FlightBooking from "./FSWD/ReactJS/FlightBooking";
+
+function App() 
+{
+  return(<FlightBooking/>);
+}
+
+export default App
+
